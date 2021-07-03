@@ -2,13 +2,13 @@
 allow_bold = true
 #audible_bell = false
 #bold_is_bright = true
-#cell_height_scale = 1.0
+cell_height_scale = 1.0
 #cell_width_scale = 1.0
 clickable_url = true
-#jdynamic_title = true
+dynamic_title = true
 font = Mononoki Nerd Font 12
 #fullscreen = true
-#icon_name = terminal
+icon_name = terminal
 #mouse_autohide = false
 #scroll_on_output = false
 #scroll_on_keystroke = true
@@ -52,30 +52,52 @@ scrollback_lines = 10000
 
 #90% background transparency (requires a compositor)
 background = #000000
-background = rgba(28, 28, 53, 0.8)
+background = rgba(28, 28, 53, 0.9)
 
 # If unset, will reverse foreground and background
 highlight = #2f2f2f
 
 # Colors from color0 to color254 can be set
 
-color0 = #01112a
-color1 = #06162f
-color2 = #012241
-color3 = #05324f
-color4 = #0c567b
-color5 = #2c6e84
-color6 = #40c4c6
-color7 = #80d2cc
-color8 = #574b5f
-color9 = #624b67
-color10 = #c9838d
-color11 = #f8da9e
-color12 = #e6ae71
-color13 = #dfb0a8
-color14 = #ec7464
-color15 = #f9dc7e
+[colors]
 
+# special
+foreground      = #88c0d0
+foreground_bold = #88c0d0
+cursor          = #88c0d0
+#background      = #2e3440
+
+# black
+color0  = #d8dee9
+color8  = #abb0b9
+
+# red
+color1  = #bf616a
+color9  = #bf616a
+
+# green
+color2  = #a3be8c
+color10 = #a3be8c
+
+# yellow
+color3  = #5e81ac
+color11 = #5e81ac
+
+# blue
+color4  = #ebcb8b
+color12 = #ebcb8b
+
+# magenta
+color5  = #b48ead
+color13 = #b48ead
+
+# cyan
+color6  = #d08770
+color14 = #d08770
+
+# white
+color7  = #88c0e8
+color15 = #88c0e8
 
 [hints]
 #font = Monospace 12
