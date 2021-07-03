@@ -20,4 +20,4 @@ alias cp="cp -i"
 alias mv="mv -i"
 alias rm="rm -i"
 
-alias config='/usr/bin/git --git-dir=/home/soeri/.cfg/ --work-tree=/home/soeri'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
