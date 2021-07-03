@@ -1,0 +1,10 @@
+
+
+~/.fehbg &
+setxkbmap es &
+nm-applet &
+udiskie -t &
+
+
+picom &
+
