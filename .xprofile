@@ -1,6 +1,6 @@
 
 
-~/.fehbg &
+feh --bg-scale ~/Wallpapers/wallhaven-5dlqq9_nord.jpg
 setxkbmap es &
 nm-applet &
 udiskie -t &
