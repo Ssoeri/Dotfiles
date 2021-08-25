@@ -1,6 +1,6 @@
 
 
-feh --bg-scale ~/Wallpapers/wallhaven-5dlqq9_nord.jpg
+feh --bg-scale ~/Wallpapers/Xiao.png
 setxkbmap es &
 nm-applet &
 udiskie -t &
